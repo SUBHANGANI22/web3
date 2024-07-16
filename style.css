@@ -1,0 +1,380 @@
+:root {
+    --accent-color: #e4543c;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-orange {
+    color: var(--accent-color);
+}
+
+.text-sm {
+    font-size: 13px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.navbar {
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 70px;
+    width: 100%;
+}
+
+.nav-text h3 {
+    color: #006800;
+    letter-spacing: 1px;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.header-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-text {
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    left: 23%;
+}
+
+.header-text span {
+    background-color: var(--accent-color);
+}
+
+.card-container {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 50px;
+}
+
+.card {
+    border: none;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+    padding: 5px;
+}
+
+.header-text h1 {
+    font-size: 47px;
+}
+
+.header-text span {
+    background-color: var(--accent-color);
+}
+
+.intro-1 {
+    margin-top: 60px !important;
+}
+
+.business-btn {
+    color: var(--accent-color);
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    padding-left: 0px;
+}
+
+.intro-2 {
+    background-color: #fff0f0;
+}
+
+.auditing-btn {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.products {
+    padding: 80px 0;
+    background-color: #386454;
+}
+
+.products-card {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.grid-item {
+    color: white;
+    width: 300px;
+}
+
+.grid-item img {
+    width: 50px;
+    height: auto;
+}
+
+.budget-btn {
+    background-color: #33333309;
+    color: #006443;
+    border: none;
+}
+
+.time-schedule {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.time-schedule table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.time-schedule th {
+    color: var(--accent-color);
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+.time-schedule td {
+    padding: 10px;
+}
+
+.vericaltext {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.invoice-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.invoice-box table tr.heading th {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    font-weight: bold;
+}
+
+.invoice-box table tr.item td {
+    border-bottom: 1px solid #525252;
+}
+
+.invoice-box table tr.total td {
+    border-top: 1px solid #525252;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.bg-bown {
+    background-color: #4b4343;
+}
+
+.find-out-section {
+    background: url(./img/MAp.png) no-repeat 700px 0;
+    padding: 60px 0 60px 0;
+    overflow: hidden;
+}
+
+.map-btn {
+    margin-bottom: 20px;
+    padding: 5px 15px;
+}
+
+.custom-shadow {
+    box-shadow: #959da51c 0px 8px 24px;
+}
+
+.footer-links li {
+    padding: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-justify {
+        text-align: justify;
+    }
+    
+    .logo img {
+        width: 170px;
+        height: 100%;
+    }
+    
+    .intro-card {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .grid-item {
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .products {
+        padding: 20px 0;
+        background-color: #386454;
+    }
+    
+    .find-out-section {
+        padding: 20px 0 20px 20px;
+    }
+    
+    .intro-text-1 {
+        font-size: 27px !important;
+        text-align: center;
+        padding-bottom: 10px;
+        font-weight: bold !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-text {
+        background: url(./img//Header.png) no-repeat center;
+        position: relative;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+    }
+    
+    .header-text h1 {
+        font-size: 37px;
+        padding: 30px 0;
+        font-weight: bold;
+    }
+    
+    .intro-1 {
+        margin-top: 20px !important;
+    }
+}
+
+/* Additional CSS for the form section */
+/* Additional CSS for the form section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-md-5 {
+    margin-top: 5rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pb-md-0 {
+    padding-bottom: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-md-4 {
+    gap: 4rem;
+}
+
+.fs-1 {
+    font-size: 2.5rem;
+}
+
+.fw-normal {
+    font-weight: normal;
+}
+
+.my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 33.333333%;
+}
+
+.intro-card {
+    background-color: var(--light-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.invalid-feedback {
+    display: none;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff3333;
+}
+
+.submit-btn {
+    margin-top: 20px;
+}
+
+/* Alignment adjustment */
+.intro-heading {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+@media (max-width: 768px) {
+    .intro-heading {
+        margin-left: 0;
+    }
+}
